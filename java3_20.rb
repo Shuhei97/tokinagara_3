@@ -1,5 +1,5 @@
-a = rand(0..2)
-puts a
+print "コンピュータが生成した手："
+a = gets.to_i
 if a ==0
   puts "グー"
 elsif a ==1

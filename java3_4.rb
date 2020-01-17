@@ -1,7 +1,7 @@
-A = rand(1..15)
-B = rand(1..5)
-puts "変数A:#{A}"
-puts "変数B:#{B}"
+print "変数A"
+A = gets .to_i
+print "変数B"
+B = gets.to_i
 if A%B != 0
  puts"AはBの約数ではありません"
 else

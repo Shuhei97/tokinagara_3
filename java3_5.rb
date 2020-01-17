@@ -1,5 +1,5 @@
-A = rand(-100..100)
-puts "整数値：#{A}"
+print "整数値A:"
+A = gets.to_i
 if A == 0
   puts "その値は０です"
 elsif A > 0

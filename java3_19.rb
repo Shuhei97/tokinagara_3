@@ -1,9 +1,11 @@
+print "整数a:"
 number1 = gets.to_f
-puts "整数a:#{number1}"
+print "整数b:"
+
 number2 = gets.to_f
-puts "整数b:#{number2}"
+print "整数c:"
 number3 = gets.to_f
-puts "整数c:#{number3}"
+
 if number1 > number2
   x = number1
   number1 = number2

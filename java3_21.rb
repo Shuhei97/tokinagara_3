@@ -1,3 +1,4 @@
+print "何月ですか："
 month = gets.to_f
 if month > 12
   puts "有効な数字ではありません"
